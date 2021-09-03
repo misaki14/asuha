@@ -88,8 +88,8 @@
     left: 6%;
   }
   .news {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .notice .box {
     padding: 0 40px;
@@ -125,7 +125,7 @@
     display: block;
     display: inline-block;
     text-align: left;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   .footer .footer-box .footer-address:before {
     display: block;
@@ -194,6 +194,9 @@
   .detail-title {
     max-width: 520px;
   }
+  .footer {
+    padding-top: 83px;
+  }
 }
 
 @media screen and (min-width: 800px){
@@ -236,10 +239,10 @@
       width: 30px;
   }
   .header .js-offcanvas-btn[aria-expanded="true"] .hiraku-open-btn-line:before{
-    transform: translate(0px, 8px) rotate(45deg);
+    transform: translate(0px, 7px) rotate(45deg);
   }
   .header .js-offcanvas-btn[aria-expanded="true"] .hiraku-open-btn-line:after{
-    transform: translate(0px, -8px) rotate(-45deg);
+    transform: translate(0px, -7px) rotate(-45deg);
   }
   aside.js-offcanvas ul.sp-navigation {
     padding-top: 20px;
@@ -321,7 +324,7 @@
   }
   .notice .box dt {
     padding: initial;
-    padding: 20px 0 25px 10px;
+    padding: 20px 0 10px 10px;
   }
   .notice .box dd {
     float: left;
@@ -486,13 +489,16 @@
   .footer .footer-box .footer-top {
     padding: 0;
   }
+  .footer .footer-title {
+    display: flex;
+    justify-content: center;
+  }
   .footer .footer-box .footer-top .footer-title .footer-logo {
     width: 50px;
   }
   .footer .footer-box .footer-top .footer-contact {
   display: flex;
-  /* flex-direction: column; */
-  float: left;
+  flex-direction: column;
   margin-bottom: initial;
   }
   .footer-box .tell2 {
@@ -507,7 +513,8 @@
   }
   .footer .footer-box .footer-top .time {
     display: block;
-    margin-top: 90px;
+    margin-top: 30px;
+    text-align: center;
   }
   .footer .footer-box .footer-address {
     margin-bottom: 25px;

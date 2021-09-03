@@ -196,7 +196,7 @@ body {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  /* transition:all 1.0s; */
+  transition: .4s all;
 }
 
 .header-box .contact-btn .ico-mail {
@@ -208,6 +208,10 @@ body {
   transform: scale(1.1);
 }
 
+.header ul.header-box .telephone a {
+  transition: .4s all;
+}
+
 .header ul.header-box img:hover {
   opacity: 0.6;
   transition-duration: 0.3s;
@@ -216,7 +220,6 @@ body {
 .header .js-offcanvas-btn {
   display: none;
 }
-
 
 .navs {
   margin-top: 17px;
@@ -247,7 +250,7 @@ ul.links a {
   justify-content: center;
   align-items: center; 
   flex-direction: column;
-  /* transition:all 1.0s; */
+  transition: .4s all;
 }
 
 ul.links a:hover {
@@ -353,7 +356,7 @@ ul.links li.nav-item6 {
 .kv{
   max-width: 1000px;
   margin: 0 auto;
-  margin-bottom: 67px;
+  margin-bottom: 37px;
   position: relative
 }
 
@@ -407,7 +410,7 @@ ul.links li.nav-item6 {
   border-top: transparent;
   border-radius: 20px;
   border-bottom: solid 5px #dfdada;
-  margin-bottom: 67px;
+  margin-bottom: 37px;
 }
 
 .ico-exclamation {
@@ -505,9 +508,7 @@ ul.links li.nav-item6 {
   text-decoration: none;
   color: #2f2626; 
   display: block;
-  /* padding: 26px 35px 31px 0; */
-  /* margin-right: 35px; */
-  /* transition:all 1.0s; */
+  transition: .4s all;
 }
 
 .box  a:hover {
@@ -537,7 +538,7 @@ ul.links li.nav-item6 {
   margin-top: 57px;
   padding-left: 76px;
   border-radius: 10px;
-  /* transition:all 1.0s; */
+  transition: .4s all;
 }
 
 .btn-wrap .btn .ico-right {
@@ -635,6 +636,7 @@ ul.links li.nav-item6 {
   font-family: "NotoSansCJKjp";
   font-style: normal;
   font-weight: 500;
+  transition: .4s all;
 }
 
 .introduction .txt a:hover {
@@ -700,9 +702,6 @@ ul.links li.nav-item6 {
   margin: 50px 15px 0 0;
 }
 
-.office-introduction a:hover {
-  color: #fba651;
-}
 
 .office-introduction .details {
   line-height: 28px;
@@ -717,6 +716,11 @@ ul.links li.nav-item6 {
   color: #2f2626;
   text-decoration: none;
   font-size: 24px;
+  transition: .4s all;
+}
+
+.office-introduction .details a:hover {
+  color: #fba651;
 }
 
 .office-introduction .details .detail-title {
@@ -908,7 +912,7 @@ margin-bottom: 68px;
   justify-content: center;
   border-radius: 5px;
   margin: 20px 0 0 28px;
-  /* transition:all 1.0s; */
+  transition: .4s all;
 }
 
 .contact-btn2 .ico-mail2 {
@@ -943,6 +947,7 @@ margin-bottom: 68px;
   line-height: 1.8em;
   position: relative;
   padding-left: 110px;
+  margin-top: 30px;
   /* display: inline-block;
   text-align: left; */
 }
@@ -989,7 +994,7 @@ margin-bottom: 68px;
   font-family: "NotoSansCJKjp";
   font-style: normal;
   font-weight: 300;
-  /* transition: color .3s; */
+  transition: .4s all;
 }
 
 .link-item a:hover {
