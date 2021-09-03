@@ -1,0 +1,37 @@
+.question {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.question h2 {
+  font-size: 35px;
+  font-family: fot-tsukubrdgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #2f2626;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.question .question_title h4 {
+  font-size: 22px;
+  font-family: "NotoSansCJKjp";
+  font-style: normal;
+  font-weight: 600;
+  color: #2f2626;
+  padding-bottom: 50px;
+}
+
+
+.question .question_answer {
+  font-size: 18px;
+  font-family: "NotoSansCJKjp";
+  font-style: normal;
+  font-weight: 400;
+  color: #2f2626;
+  line-height: 1.6em;
+  padding-bottom: 100px;
+}
